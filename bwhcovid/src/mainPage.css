@@ -55,5 +55,25 @@
  justify-content: flex-end;
  }
 
+.search {
 
 
+align-items: center;
+}
+
+.wait {
+height: 60px;
+width: 60px;
+}
+
+.bing {
+font-size: 25px;
+text-align: left;
+color: brown;
+}
+
+.search {
+font-size: 30px;
+text-align: left;
+color: brown;
+}

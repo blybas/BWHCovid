@@ -14,14 +14,15 @@ function App() {
                 OSIB Covid Testing Site Finder
             </div>
        </Navbar.Brand>
-       <div className ="left">
-        <Button>I am an Administrator</Button>
-       </div>
      </Navbar>
-     <img src="map.png" />
+     <div className = "wait">
+         <img src="waitmap.png" />
+     </div>
         <div className ="search">
-            <input type="text" placeholder="Enter your zipcode"/>
-            <button>Zipcode</button>
+            Covid Testing Locations near you
+        </div>
+        <div className = "bing">
+            25 testing locations in Inglewood California
         </div>
   </div>
   );
