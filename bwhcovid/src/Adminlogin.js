@@ -14,15 +14,17 @@ function App() {
                 OSIB Covid Testing Site Finder
             </div>
        </Navbar.Brand>
-       <div className ="left">
-        <Button>I am an Administrator</Button>
-       </div>
      </Navbar>
-     <img src="map.png" />
-        <div className ="search">
-            <input type="text" placeholder="Enter your zipcode"/>
-            <button>Zipcode</button>
-        </div>
+     <div className ="wait">
+                 <input type="text" placeholder=""/>
+                 <button>User Number</button>
+     </div>
+     <p></p>
+     <p></p>
+     <div className ="bing">
+                      <input type="text" placeholder=""/>
+                      <button>Pass Code</button>
+     </div>
   </div>
   );
 }
